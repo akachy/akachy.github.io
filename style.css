@@ -78,7 +78,7 @@ h1, h2, h3{
 }
  /* showcase */
 #showcase {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url("../img/photo-1.jpg") no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url("photo-1.jpg") no-repeat center center/cover;
     height: 700px;
 }
 #showcase .showcase-content {
@@ -106,7 +106,7 @@ h1, h2, h3{
 }
 #home-info .info-img {
     float: left;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url("../img/photo-4.jpg") no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url("photo-4.jpg") no-repeat center center/cover;
     width: 50%;
     height: 100%;
 
@@ -127,7 +127,7 @@ h1, h2, h3{
 }
 #info-house .img {
     float: right;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url("../img/photo-3.jpg") no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url("photo-3.jpg") no-repeat center center/cover;
     width: 50%;
     height: 100%;
 
@@ -224,7 +224,7 @@ h1, h2, h3{
     padding: 20px
 }
 #cute {
-    background:  linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url("../img/photo-4.jpg") no-repeat center center/cover;
+    background:  linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url("photo-4.jpg") no-repeat center center/cover;
     height: 500px;
     padding: 30px;
     border: 1px #fff solid;
@@ -249,7 +249,7 @@ h1, h2, h3{
 }
 #contact-form {
     color: #ffd902;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url("../img/photo-4.jpg") no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url("photo-4.jpg") no-repeat center center/cover;
     height: 530px;
 }
 label {
