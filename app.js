@@ -13,13 +13,13 @@ labourP.addEventListener("click", (e) => {
   e.preventDefault()
 })
 apcP.addEventListener("click", (e) => {
-  let counterL = document.querySelector(".counterP")
+  let counterL = document.querySelector(".counterA")
   let result = Number(counterL.innerText) + 1
   counterL.innerText = result
   e.preventDefault()
 })
 pdpP.addEventListener("click", (e) => {
-  let counterL = document.querySelector(".counterA")
+  let counterL = document.querySelector(".counterP")
   let result = Number(counterL.innerText) + 1
   counterL.innerText = result
   e.preventDefault()
