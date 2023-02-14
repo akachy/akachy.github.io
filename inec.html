@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- LOCAL CSS FILE -->
+  <link rel="stylesheet" href="inec.css">
+  <link rel="stylesheet" href="mobile-1.css" media="screen and (max-width: 500px)">
+  <title>INEC VOTING SYSTEM</title>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>INEC VOTING SYSTEM</h1>
+    <h3>Presidential Election</h3>
+  </header>
+
+  <!-- ELECTORAL SECTION -->
+  <!-- V2 -->
+  <!-- <section class="parties">
+    <div class="labour party">
+      <img src="" alt="">
+      <input type="text" placeholder="Please Enter Your PVC">
+      <input type="checkbox">
+      <label for="text" class="checkbox">Peter Obi</label>
+      <input type="button" value="submit" class="checkbox">
+    </div>
+
+
+    <div class="apc party">
+      <img src="" alt="">
+      <input type="text" placeholder="Please Enter Your PVC">
+      <input type="checkbox">
+      <label for="text" class="checkbox">Bola Ahmed Tinubu</label>
+      <input type="button" value="submit" class="checkbox">
+    </div>
+
+
+    <div class="labour party">
+      <img src="" alt="">
+      <input type="text" placeholder="Please Enter Your PVC">
+      <input type="checkbox">
+      <label for="text" class="checkbox">Atiku Abubakah</label>
+      <input type="button" value="submit" class="checkbox">
+    </div>
+  </section> -->
+  <section class="v2">
+    <div class="party-logo">
+      <div class="party-img-labour"> <img src="/images/Labour_Party_(Nigeria)_logo.png" alt="" style="border-radius: 15px;" height="40px"></div>
+      <div class="party-img-labour"> <img src="/images/All_Progressives_Congress_logo.png" alt="" style="border-radius: 15px;" height="40px"></div>
+      <div class="party-img-labour"> <img src="/images/Peoples_Democratic_Party_(Nigeria).png" alt="" style="border-radius: 15px;" height="40px"></div>
+    </div>
+
+    <div>
+      <input type="text" placeholder="Please Enter Your PVC">
+      <input type="text" placeholder="Please Enter Your PVC">
+      <input type="text" placeholder="Please Enter Your PVC">
+    </div>
+
+    <!-- <div>
+      <input type="checkbox">
+      <input type="checkbox">
+      <input type="checkbox">
+    </div> -->
+
+    <div>
+      <label for="text" class="checkbox">Peter Obi</label>
+      <label for="text" class="checkbox">Atiku Abubarka</label>
+      <label for="text" class="checkbox">Asiwaju Bola Ahmed Tinubu</label>
+    </div>
+
+    <div>
+      <input type="button" value="submit" class="checkbox" id="labourP">
+      <input type="button" value="submit" class="checkbox" id="apcP">
+      <input type="button" value="submit" class="checkbox" id="pdpP">
+    </div>
+  </section>
+
+  <!-- COUNTER SECTION -->
+  <h2>Vote Wisely, Your Vote Counts</h2>
+  <section class="counter">
+    <div class="count-labour">
+      <h2>Labour</h3>
+      <span class="counterL">0</span>
+    </div>
+    <div class="count-pdp">
+      <h2>PDP</h3>
+      <span class="counterP">0</span>
+    </div>
+    <div class="count-apc">
+      <h2>APC</h3>
+      <span class="counterA">0</span>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <marquee behavior="" direction="">Build with 💚🤍💚 by HiiT students for a free, fare and credible 2023 election</marquee>
+    <!-- <p>Build with 💚🤍💚 by HiiT students for a free, fare and credible 2023 election</p> -->
+  </footer>  
+
+  <!-- JS FILE -->
+  <script src="app.js"></script>
+</body>
+</html>
