@@ -10,94 +10,81 @@
   <title>INEC VOTING SYSTEM</title>
 </head>
 <body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="inec.html"><span class="green">Home</span></a>
+    <a href="result.html">Results</a>
+    <a href="#">Candidates</a>
+    <a href="#">Results</a>
+    <a href="#">Help</a>
+    <a href="#">About</a>
+  </div>
+  
+  <!-- Use any element to open the sidenav -->
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+  <div id="main">
+    <header>
+      <h1>INEC VOTING SYSTEM</h1>
+      <h3>Presidential Election</h3>
+    </header>
+    
+    <div class="atiku" style="display: flex; justify-content: center;">
+      <input type="text" class="emp" placeholder="Please Enter Voter's ID" style="color: rgb(20, 180, 20);">
+    </div>
+    
+    <!-- The sidebar -->
+    
+   
+    <section class="v2">
+      <div class="party-logo">
+        <div class="party-img-labour"> <img src="/images/Labour_Party_(Nigeria)_logo.png" alt="" style="border-radius: 15px;" height="40px"></div>
+        <div class="party-img-labour"> <img src="/images/All_Progressives_Congress_logo.png" alt="" style="border-radius: 15px;" height="40px"></div>
+        <div class="party-img-labour"> <img src="/images/Peoples_Democratic_Party_(Nigeria).png" alt="" style="border-radius: 15px;" height="40px"></div>
+      </div>
+  
+      
+      <div class="obi">
+        <label for="text" class="checkbox">Peter Obi</label>
+        <label for="text" class="checkbox">Bola Tinubu</label>
+        <label for="text" class="checkbox">Atiku Abubarka</label>
+      </div>
+  
+      <div>
+        <input type="checkbox" id="lp">
+        <input type="checkbox" id="apc">
+        <input type="checkbox" id="pdp">
+      </div>
+  
+    </section>
+    <div class="vote">
+      <button class="kachy">Submit</button>
+    </div>
+    <!-- COUNTER SECTION -->
+    <div class="petr">
+      <h2>Vote Wisely, Your Vote Counts</h2>
+      <section class="counter">
+        <div class="count-labour">
+          <h2>Labour <span class="counterL">0</span></h3>
+        </div>
+        <div class="count-pdp">
+          <h2>APC <span class="counterA">0</span></h3>
+        </div>
+        <div class="count-apc">
+          <h2>PDP <span class="counterP">0</span></h3>
+        </div>
+      </section>
+    
+    </div>
+    
+  
+    <footer class="footer">
+      <marquee behavior="" direction="">Build with 💚🤍💚 by HiiT students for a free, fare and credible 2023 election</marquee>
+      <!-- <p>Build with 💚🤍💚 by HiiT students for a free, fare and credible 2023 election</p> -->
+    </footer>  
+  </div>
   <!-- HEADER -->
-  <header>
-    <h1>INEC VOTING SYSTEM</h1>
-    <h3>Presidential Election</h3>
-  </header>
-
-  <!-- ELECTORAL SECTION -->
-  <!-- V2 -->
-  <!-- <section class="parties">
-    <div class="labour party">
-      <img src="" alt="">
-      <input type="text" placeholder="Please Enter Your PVC">
-      <input type="checkbox">
-      <label for="text" class="checkbox">Peter Obi</label>
-      <input type="button" value="submit" class="checkbox">
-    </div>
-
-
-    <div class="apc party">
-      <img src="" alt="">
-      <input type="text" placeholder="Please Enter Your PVC">
-      <input type="checkbox">
-      <label for="text" class="checkbox">Bola Ahmed Tinubu</label>
-      <input type="button" value="submit" class="checkbox">
-    </div>
-
-
-    <div class="labour party">
-      <img src="" alt="">
-      <input type="text" placeholder="Please Enter Your PVC">
-      <input type="checkbox">
-      <label for="text" class="checkbox">Atiku Abubakah</label>
-      <input type="button" value="submit" class="checkbox">
-    </div>
-  </section> -->
-  <section class="v2">
-    <div class="party-logo">
-      <div class="party-img-labour"> <img src="Labour_Party_(Nigeria)_logo.png" alt="" style="border-radius: 15px;" height="40px"></div>
-      <div class="party-img-labour"> <img src="All_Progressives_Congress_logo.png" alt="" style="border-radius: 15px;" height="40px"></div>
-      <div class="party-img-labour"> <img src="Peoples_Democratic_Party_(Nigeria).png" alt="" style="border-radius: 15px;" height="40px"></div>
-    </div>
-
-    <div>
-      <input type="text" placeholder="Please Enter Your PVC">
-      <input type="text" placeholder="Please Enter Your PVC">
-      <input type="text" placeholder="Please Enter Your PVC">
-    </div>
-
-    <!-- <div>
-      <input type="checkbox">
-      <input type="checkbox">
-      <input type="checkbox">
-    </div> -->
-
-    <div>
-      <label for="text" class="checkbox">Peter Obi</label>
-      <label for="text" class="checkbox">Ahmed Tinubu</label>
-      <label for="text" class="checkbox">Atiku</label>
-    </div>
-
-    <div>
-      <input type="button" value="submit" class="checkbox" id="labourP">
-      <input type="button" value="submit" class="checkbox" id="apcP">
-      <input type="button" value="submit" class="checkbox" id="pdpP">
-    </div>
-  </section>
-
-  <!-- COUNTER SECTION -->
-  <h2>Vote Wisely, Your Vote Counts</h2>
-  <section class="counter">
-    <div class="count-labour">
-      <h2>Labour</h3>
-      <span class="counterL">0</span>
-    </div>
-    <div class="count-pdp">
-      <h2>PDP</h3>
-      <span class="counterP">0</span>
-    </div>
-    <div class="count-apc">
-      <h2>APC</h3>
-      <span class="counterA">0</span>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <marquee behavior="" direction="">Build with 💚🤍💚 by HiiT students for a free, fare and credible 2023 election</marquee>
-    <!-- <p>Build with 💚🤍💚 by HiiT students for a free, fare and credible 2023 election</p> -->
-  </footer>  
+  
 
   <!-- JS FILE -->
   <script src="app.js"></script>
